@@ -4,24 +4,29 @@
     --primary: #9d174d;
     --secondary: #be185d;
     --tertiary: #fbcfe8;
-    --content: #3f3f46;
+    --content: #831843;
     --code-bg: #fdf2f8;
     --border: #f9a8d4;
-}
-.dark {
-    --theme: #1a1420;
-    --entry: #2d2438;
-    --primary: #f9a8d4;
-    --secondary: #f0abfc;
-    --tertiary: #3d2f4d;
-    --content: #e5e5e5;
-    --border: #6b2149;
 }
 html:not(.dark) body {
     background: #ffffff !important;
 }
-a { color: var(--secondary); }
-.post-entry {
-    border: 1px solid var(--border);
+html:not(.dark) .first-entry .entry-header h1,
+html:not(.dark) .first-entry .entry-content {
+    color: #9d174d !important;
+}
+html:not(.dark) a { color: #be185d; }
+html:not(.dark) .post-entry {
+    border: 1px solid #f9a8d4;
     box-shadow: 0 2px 8px rgba(157, 23, 77, 0.08);
+}
+.dark .post-title,
+.dark .entry-header h1,
+.dark .first-entry .entry-header h1 {
+    color: #fce7f0 !important;
+}
+.dark .post-content,
+.dark .first-entry .entry-content,
+.dark .post-single .post-content p {
+    color: #f5c6dd !important;
 }
