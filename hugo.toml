@@ -1,6 +1,6 @@
 baseURL = 'https://adelianurlinap.github.io/page/'
 locale = 'en-us'
-title = 'anp's'
+title = "anp's"
 theme = 'PaperMod'
 
 [params]
