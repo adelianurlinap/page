@@ -1,0 +1,39 @@
+baseURL = 'https://adelianurlinap.github.io/page/'
+locale = 'en-us'
+title = 'anp's'
+theme = 'PaperMod'
+
+[params]
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+
+  [params.homeInfoParams]
+    Title = "Made to stay up."
+    Content = "DevOps / SRE Engineer. Building resilient systems and writing about what I learn along the way."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/adelianurlinap"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/adelia-nurlina"
+
+[markup]
+  [markup.highlight]
+    style = 'monokai'
+    lineNos = true
+    noClasses = true
+
+[[menu.main]]
+  identifier = 'posts'
+  name = 'Posts'
+  url = '/posts/'
+  weight = 10
+[[menu.main]]
+  identifier = 'tags'
+  name = 'Tags'
+  url = '/tags/'
+  weight = 20

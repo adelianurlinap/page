@@ -1,0 +1,27 @@
+:root {
+    --theme: #ffffff;
+    --entry: #fce7f0;
+    --primary: #9d174d;
+    --secondary: #be185d;
+    --tertiary: #fbcfe8;
+    --content: #3f3f46;
+    --code-bg: #fdf2f8;
+    --border: #f9a8d4;
+}
+.dark {
+    --theme: #1a1420;
+    --entry: #2d2438;
+    --primary: #f9a8d4;
+    --secondary: #f0abfc;
+    --tertiary: #3d2f4d;
+    --content: #e5e5e5;
+    --border: #6b2149;
+}
+html:not(.dark) body {
+    background: #ffffff !important;
+}
+a { color: var(--secondary); }
+.post-entry {
+    border: 1px solid var(--border);
+    box-shadow: 0 2px 8px rgba(157, 23, 77, 0.08);
+}
