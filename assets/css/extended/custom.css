@@ -2,39 +2,22 @@
 :root {
     --theme: #ffffff;
     --entry: #fce7f0;
-    --primary: #9d174d;
+    --primary: #831843;
     --secondary: #be185d;
     --tertiary: #fbcfe8;
     --content: #831843;
     --code-bg: #fdf2f8;
     --border: #f9a8d4;
 }
-html:not(.dark) body {
-    background: #ffffff;
-    color: #831843;
-}
-html:not(.dark) .first-entry .entry-header h1,
-html:not(.dark) .first-entry .entry-content {
-    color: #9d174d;
-}
-html:not(.dark) a { color: #be185d; }
 
-/* ===== DARK MODE: abu gelap + pink muda ===== */
-.dark {
+/* ===== DARK MODE: gelap + pink muda ===== */
+[data-theme="dark"] {
     --theme: #1d1e20;
-    --entry: #2d2438;
-    --primary: #fce7f0;
+    --entry: #2a2a2e;
+    --primary: #f9a8d4;
     --secondary: #f9a8d4;
-    --tertiary: #3d2f4d;
-    --content: #fce7f0;
-    --border: #6b2149;
+    --tertiary: #2a2a2e;
+    --content: #f5c9de;
+    --code-bg: #2a2a2e;
+    --border: #3a3a3e;
 }
-.dark body {
-    background: #1d1e20;
-    color: #fce7f0;
-}
-.dark .first-entry .entry-header h1,
-.dark .first-entry .entry-content {
-    color: #fce7f0;
-}
-.dark a { color: #f9a8d4; }
