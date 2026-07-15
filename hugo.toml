@@ -1,4 +1,5 @@
 baseURL = 'https://adelianurlinap.github.io/page/'
+canonifyURLs = true
 locale = 'en-us'
 title = "anp's"
 theme = 'PaperMod'
