@@ -312,6 +312,8 @@ This part is done through the Rancher UI, which drives the vCenter API to create
 3. Pick the cloud credential (e.g. `vCenter Prod`)
 4. Fill in the form; set **Name:** `production-rke2`
 
+![VMware vSphere integration in Rancher](/images/implement-rancher/integrasi-vsphere.png)
+
 **Cloud-init template** (used for both node pools):
 
 ```yaml
@@ -352,8 +354,6 @@ The result is `production-rke2` with 6 nodes on Kubernetes `v1.27.12+rke2r1`, al
 ![Production cluster dashboard](/images/implement-rancher/cluster-dashboard.png)
 
 ![Per-node detail](/images/implement-rancher/informasi-simpul.png)
-
-![VMware vSphere integration in Rancher](/images/implement-rancher/integrasi-vsphere.png)
 
 ## Step 5 — NFS Storage Class
 
