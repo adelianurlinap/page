@@ -31,10 +31,10 @@ theme = 'PaperMod'
 [[menu.main]]
   identifier = 'posts'
   name = 'Posts'
-  url = '/posts/'
+  url = '/page/'
   weight = 10
 [[menu.main]]
   identifier = 'tags'
   name = 'Tags'
-  url = '/tags/'
+  url = '/page/tags/'
   weight = 20
