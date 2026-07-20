@@ -30,7 +30,7 @@ Three languages, a cache, a database, and a queue-like handoff, small enough to 
 
 The interesting part isn't the app, it's that **security is a first-class stage in the pipeline**, not an afterthought. Every code change flows through a series of automated gates before it can reach production:
 
-![Pipeline and security flow](/images/devsecops-voting-app/pipeline-security-diagram.png)
+![Pipeline and security gif](/images/devsecops-voting-app/kflow.gif)
 
 At a high level, each service's CI pipeline does this:
 
@@ -41,6 +41,8 @@ At a high level, each service's CI pipeline does this:
 5. **Aggregate findings** — all results are pushed to DefectDojo, a single dashboard for vulnerability management.
 6. **Push image** to Harbor (the container registry), with tag retention policies.
 7. **Deploy via GitOps** — ArgoCD syncs the desired state from Git to the Kubernetes clusters, pulling secrets from Vault at deploy time.
+
+![Pipeline and security flow](/images/devsecops-voting-app/pipeline-security-diagram.png)
 
 The philosophy: shift security *left* (catch issues in CI, early and cheap) but also keep it *continuous* (scan images and running apps, not just source). If a scan fails a gate, the change doesn't move forward.
 
