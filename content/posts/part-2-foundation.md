@@ -221,7 +221,7 @@ ArgoCD needs read access to the `deployment` repo so it can watch for changes. T
 **First, create a GitLab Group Access Token (GAT).** This is what ArgoCD authenticates with:
 
 1. Go to the `voting-app-adel` group → **Settings → Access tokens**
-2. **Add new token**, select the scopes it needs (write repository is enough)
+2. **Add new token**, select the scopes it needs (read repository is enough)
 3. **Save the token** — shown only once
 
 ![Gitlab Token](/images/devsecops-voting-app/gat.png)
