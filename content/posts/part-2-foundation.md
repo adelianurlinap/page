@@ -350,9 +350,9 @@ Everything above exists so that **Part 3** can put it to work. Next we write the
 📁 **Source code:** [github.com/adelianurlinap/voting-app-devsecops](https://github.com/adelianurlinap/voting-app-devsecops)
 
 **Series navigation:**
-- Part 1: [Overview & Architecture](/page/posts/part-1-overview/)
+- Part 1: [Overview & Architecture](/posts/part-1-overview/)
 - Part 2: Foundation & Toolchain Setup *(you are here)*
-- Part 3: The Security Pipeline (soon)
-- Part 4: GitOps Deployment (soon)
-- Part 5: Branching & Releases (soon)
+- Part 3: [The Security Pipeline](/posts/part-3-security/)
+- Part 4: [GitOps Deployment](/posts/part-4-gitops-deployment/)
+- Part 5: [Branching & Releases](/posts/part-5-branching-releases/)
 - Part 6: Day-2 Operations (soon)

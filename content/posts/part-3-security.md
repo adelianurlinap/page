@@ -386,9 +386,9 @@ The pipeline now scans everything and records what it finds. But it still hasn't
 
 **Series navigation:**
 
-1. [Overview & Architecture](/page/posts/part-1-overview/)
-2. [Foundation & Toolchain Setup](/page/posts/part-2-foundation/)
+1. [Overview & Architecture](/posts/part-1-overview/)
+2. [Foundation & Toolchain Setup](/posts/part-2-foundation/)
 3. The Security Pipeline *(you are here)*
-4. GitOps Deployment *(soon)*
-5. Branching & Releases *(soon)*
+4. [GitOps Deployment](/posts/part-4-gitops-deployment/)
+5. [Branching & Releases](/posts/part-5-branching-releases/)
 6. Day-2 Operations *(soon)*

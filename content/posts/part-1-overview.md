@@ -121,8 +121,8 @@ That's the map. In **Part 2**, we start wiring the foundation: GitLab group vari
 
 **Series navigation:**
 - Part 1: Overview & Architecture *(you are here)*
-- Part 2: [Foundation & Toolchain Setup](/page/posts/part-2-foundation/)
-- Part 3: The Security Pipeline (soon)
-- Part 4: GitOps Deployment (soon)
-- Part 5: Branching & Releases (soon)
+- Part 2: [Foundation & Toolchain Setup](/posts/part-2-foundation/)
+- Part 3: [The Security Pipeline](/posts/part-3-security/)
+- Part 4: [GitOps Deployment](/posts/part-4-gitops-deployment/)
+- Part 5: [Branching & Releases](/posts/part-5-branching-releases/)
 - Part 6: Day-2 Operations (soon)
