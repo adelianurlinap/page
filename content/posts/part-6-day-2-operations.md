@@ -1,7 +1,7 @@
 ---
 title: "Building a DevSecOps Pipeline for a Microservices Voting App — Part 6: Day-2 Operations"
 date: 2026-10-16
-draft: true
+draft: false
 summary: "The happy path is done, so what happens when production breaks? Part 6 covers the prehotfix branch that ships a fix without dragging half finished work from dev, cherry-picking it back so it doesn't get lost, and two ways to roll back a bad release: ArgoCD's fast but out of sync rollback, and re-running an old tag pipeline so Git stays the source of truth."
 tags: ["DevSecOps", "Hotfix", "Cherry-pick", "Rollback", "ArgoCD", "GitOps", "semantic-release", "GitLab", "Series"]
 categories: ["DevSecOps"]
