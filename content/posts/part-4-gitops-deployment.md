@@ -192,4 +192,4 @@ The deployment machinery is complete. But one thing has been hand-waved through 
 3. [The Security Pipeline](/posts/part-3-security/)
 4. GitOps Deployment *(you are here)*
 5. [Branching & Releases](/posts/part-5-branching-releases/)
-6. Day-2 Operations *(soon)*
+6. [Day-2 Operations](/posts/part-6-day-2-operations/)

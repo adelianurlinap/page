@@ -391,4 +391,4 @@ The pipeline now scans everything and records what it finds. But it still hasn't
 3. The Security Pipeline *(you are here)*
 4. [GitOps Deployment](/posts/part-4-gitops-deployment/)
 5. [Branching & Releases](/posts/part-5-branching-releases/)
-6. Day-2 Operations *(soon)*
+6. [Day-2 Operations](/posts/part-6-day-2-operations/)

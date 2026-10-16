@@ -258,4 +258,4 @@ Everything up to this point assumes the happy path: a change moves cleanly throu
 3. [The Security Pipeline](/posts/part-3-security/)
 4. [GitOps Deployment](/posts/part-4-gitops-deployment/)
 5. Branching & Releases *(you are here)*
-6. Day-2 Operations *(soon)*
+6. [Day-2 Operations](/posts/part-6-day-2-operations/)

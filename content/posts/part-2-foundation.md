@@ -355,4 +355,4 @@ Everything above exists so that **Part 3** can put it to work. Next we write the
 - Part 3: [The Security Pipeline](/posts/part-3-security/)
 - Part 4: [GitOps Deployment](/posts/part-4-gitops-deployment/)
 - Part 5: [Branching & Releases](/posts/part-5-branching-releases/)
-- Part 6: Day-2 Operations (soon)
+- Part 6: [Day-2 Operations](/posts/part-6-day-2-operations/)
